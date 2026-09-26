@@ -1,16 +1,3 @@
-# TuneFetch source tree
-
-```
-build/                  build system
-  envsetup.sh / .bat     source/call this first
-  lunch.bat               (Windows menu; envsetup.sh has lunch built in)
-  tools/                  the actual build engines + CI setup
-  ci/build.yml            GitHub Actions definition (installed by 'allproducts')
-device/tunefetch/<target>/BoardConfig.mk   per-target packaging flags
-vendor/tunefetch/       app source (tunefetch.py) + module manifest
-out/target/product/<target>/    build output (gitignored)
-```
-
 ## Build
 
 Linux / macOS:
